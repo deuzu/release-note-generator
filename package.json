@@ -1,0 +1,32 @@
+{
+  "name": "release-note-generator",
+  "version": "1.0.0",
+  "description": "Generate a release note from Git commits and Issue tracker",
+  "main": "bin/release-note-generator.js",
+  "scripts": {
+    "test": "test"
+  },
+  "bin": {
+    "generate-release-note": "bin/release-note-generator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deuzu/release-note-generator.git"
+  },
+  "keywords": [
+    "release-note",
+    "generator"
+  ],
+  "author": "Deuzu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deuzu/release-note-generator/issues"
+  },
+  "homepage": "https://github.com/deuzu/release-note-generator#readme",
+  "preferGlobal": "true",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "jira-client": "^6.4.0",
+    "request": "^2.81.0"
+  }
+}
